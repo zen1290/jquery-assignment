@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <style>
+        .x
+        {
+            background-color: orange;
+        }
+        .y
+        {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<h2>hllo</h2>
+<p>hello</p>
+<h2>hllo</h2>
+<p>hello</p>
+<h2>hllo</h2>
+<p>hello</p>
+<h2>hllo</h2>
+
+  <button id="1">add X</button>
+  <button id="2">add Y</button>
+
+    
+
+
+
+    <script>
+       
+       $("#1").click(function()
+       {
+
+          $("h2").addClass("x");
+       });
+       $("#2").click(function()
+       {
+
+          $("p").addClass("y");
+       });
+           
+       
+    </script>
+</body>
+</html>
